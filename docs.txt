@@ -1,0 +1,11 @@
+Deadlock Simulator - Explanation
+
+This project is a simple simulation of deadlock detection in an operating system using Banker’s Algorithm.
+
+The program takes input such as number of processes, number of resources, allocation matrix, maximum matrix, and available resources. Based on this input, it calculates the need matrix, which represents the remaining resource requirement of each process.
+
+The system then checks whether the processes can execute safely. A process is allowed to execute only if its need is less than or equal to the available resources. After execution, the process releases its resources back to the system.
+
+The program runs step-by-step and shows how resources are allocated and released. If all processes are able to complete execution, the system is in a safe state and a safe sequence is displayed. If no process can proceed at any stage, the system detects a deadlock and shows which processes are stuck.
+
+This project helps in understanding how operating systems manage resources and how deadlocks can occur due to improper allocation.
